@@ -1,0 +1,72 @@
+/* Umumiy sozlamalar */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f5f0;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Kartochka markazda turishi uchun */
+.recipe-card {
+  background-color: #fff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Rasm */
+.recipe-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* Sarlavha */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #080909;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #8e44ad;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #ddb76f;
+}
+
+/* Matn */
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Listlar */
+ul, ol {
+  margin-left: 20px;
+}
+
+ul li, ol li {
+  margin-bottom: 8px;
+}
+
+/* Nutrition section */
+.nutrition ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nutrition li {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
