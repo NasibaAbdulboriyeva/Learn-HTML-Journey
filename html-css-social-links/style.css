@@ -1,0 +1,63 @@
+/* all */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* for card */
+.card {
+  background-color: hsl(0, 0%, 12%);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  width: 300px;
+}
+
+/* profile picture */
+.avatar {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+/* name and location */
+.name {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.location {
+  color: hsl(75, 94%, 57%);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.tagline {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+/* links */
+.links {
+  list-style: none;
+  padding: 0;
+}
+.links li {
+  margin: 0.5rem 0;
+}
+.links a {
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  padding: 0.8rem;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.links a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
